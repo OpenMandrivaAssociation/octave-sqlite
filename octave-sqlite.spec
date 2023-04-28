@@ -1,8 +1,8 @@
 %global octpkg sqlite
 
-Summary:	Native SQLite interface for GNU Octave
+Summary:	Basic Octave implementation of the sqlite toolkit
 Name:		octave-sqlite
-Version:	0.0.2
+Version:	0.0.3
 Release:	1
 License:	GPLv3+
 Group:		Sciences/Mathematics
@@ -19,7 +19,7 @@ Requires(post): octave
 Requires(postun): octave
 
 %description
-Basic Octave implementation of the sqlite toolkit.
+Basic Octave implementation of the sqlite toolkit
 
 %files
 %license COPYING
@@ -28,6 +28,7 @@ Basic Octave implementation of the sqlite toolkit.
 %{octpkgdir}/*
 %dir %{octpkglibdir}
 %{octpkglibdir}/*
+#{_metainfodir}/*.metainfo.xml
 
 #---------------------------------------------------------------------------
 
