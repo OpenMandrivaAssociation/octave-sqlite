@@ -3,7 +3,7 @@
 Summary:	Basic Octave implementation of the sqlite toolkit
 Name:		octave-sqlite
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Sciences/Mathematics
 #Url:		https://packages.octave.org/sqlite/
